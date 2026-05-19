@@ -16,4 +16,7 @@ fn main() {
     println!("{}", sum_range!(1)); // 1
     println!("{}", sum_range!(1, 2, 3)); // 6
     println!("{}", sum_range!(1, 2, 3,)); // 6
+
+    // task four
+    log_info!("This is an info message.");
 }
