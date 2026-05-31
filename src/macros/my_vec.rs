@@ -2,13 +2,11 @@
 
 #[macro_export]
 macro_rules! my_vec {
-    ( $( $x:expr ),* $(,)? ) => {
+    ( $( $elem:expr ),* $(,)? ) => {
         {
             let mut vec = Vec::new();
             $(
                 vec.push($elem);
-
-
             )*
             vec
         }
