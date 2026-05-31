@@ -1,4 +1,4 @@
-#[export_macro]
+#[macro_export]
 
 
 macro_rules! debug_var {

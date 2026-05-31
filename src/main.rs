@@ -19,4 +19,14 @@ fn main() {
 
     // task four
     log_info!("This is an info message.");
+
+
+    // mini html macro
+    let page = mini_html!(
+        h1 => "Welcome",
+        p => "Rust is amazing"
+    );
+
+    println!("{}", page);
+
 }
